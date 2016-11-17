@@ -1,0 +1,29 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Chalkdigital-Mobile-Ads-G-SDK (1.0.0):
+    - AFNetworking (< 4.0, >= 2.0)
+
+DEPENDENCIES:
+  - Chalkdigital-Mobile-Ads-G-SDK
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Chalkdigital-Mobile-Ads-G-SDK: 329a54638a93a5bd343196101598caee9152332b
+
+PODFILE CHECKSUM: aa09f250940f96b04df76f50e8518127204a8a18
+
+COCOAPODS: 1.1.0
