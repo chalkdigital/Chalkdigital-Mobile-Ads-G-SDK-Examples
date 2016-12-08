@@ -30,6 +30,7 @@
 		E76B9BDB1D4F5B680007A843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E76B9BDE1D4F5B680007A843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E76B9BE01D4F5B680007A843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7758F751DF9A22900FBEABB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		D2489D94C40393969774532F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7758F751DF9A22900FBEABB /* libsqlite3.tbd */,
 				934A406D957C5E86BA7AF4B5 /* libPods-CDAdsObjectveCExample.a */,
 			);
 			name = Frameworks;

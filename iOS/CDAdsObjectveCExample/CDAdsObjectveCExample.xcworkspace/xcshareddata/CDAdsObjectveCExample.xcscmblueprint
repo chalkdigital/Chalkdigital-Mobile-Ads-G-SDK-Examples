@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FC4D97405C0F31B2EF591CD5E872C923B2820A42",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9A8AD46816DFC531E927CEEDBD8DFF7A3467CDF4" : 9223372036854775807,
+    "FC4D97405C0F31B2EF591CD5E872C923B2820A42" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EAD2F4FA-0328-4FBB-948F-9C5E73883E69",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9A8AD46816DFC531E927CEEDBD8DFF7A3467CDF4" : "mobile-apps\/",
+    "FC4D97405C0F31B2EF591CD5E872C923B2820A42" : "Chalkdigital-Mobile-Ads-G-SDK-Examples\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CDAdsObjectveCExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOS\/CDAdsObjectveCExample\/CDAdsObjectveCExample.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chalkdigital\/mobile-apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A8AD46816DFC531E927CEEDBD8DFF7A3467CDF4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chalkdigital\/Chalkdigital-Mobile-Ads-G-SDK-Examples",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC4D97405C0F31B2EF591CD5E872C923B2820A42"
+    }
+  ]
+}
