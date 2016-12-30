@@ -83,6 +83,7 @@
 		4A7CA324FC0C2653DAD8FCC1602A2DF6 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		5459F6D51FE4845B9A7A29A1D9D1D704 /* Pods-CDAdsObjectveCExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDAdsObjectveCExample-frameworks.sh"; sourceTree = "<group>"; };
 		59151EC231E3F26E1650AB71893F11BC /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		5B7C7B3DFB5BB1148CCA7D91ED6A329B /* GravyConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = GravyConfig.plist; path = CDAds.framework/GravyConfig.plist; sourceTree = "<group>"; };
 		5BB974237447481147D8D4A9FEBA3F5C /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		5C3076143126055C32B4622C7091B768 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		60DE25575FE71B2D6151D75C4A83E47B /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
@@ -98,19 +99,16 @@
 		A22341E3FF2A1DB17FCB0C819882F160 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		A4BAE78A4DA5939781B657E7A4CB0967 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		A844071313BE3F94EA96AFBADF3F2CAF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		ADE35B255A9A63D54C48A32DB02D3DBD /* cdads.mom */ = {isa = PBXFileReference; includeInIndex = 1; name = cdads.mom; path = CDAds.framework/cdads.momd/cdads.mom; sourceTree = "<group>"; };
 		AEA71029854CE716796BB99DFD56FEA4 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AF764734E2FCBFD70B71E79D5BC2BF9F /* CDAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CDAds.framework; sourceTree = "<group>"; };
 		B3F0698173E20B9488D15924D718AECE /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6DA9D4F04F9D2575C483CFE0760F29D /* CDAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CDAds.bundle; path = CDAds.framework/CDAds.bundle; sourceTree = "<group>"; };
 		BA6C427BE3E1A74DB0B9AE73E66BC43D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		BD8CF9950B4595B42322DC75B233DE53 /* CDAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CDAds.framework; sourceTree = "<group>"; };
-		C2875E694FEC7FFD7B72ACDDB53E4C11 /* VersionInfo.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = VersionInfo.plist; path = CDAds.framework/cdads.momd/VersionInfo.plist; sourceTree = "<group>"; };
 		C54807EB771FB3EE9125ABB2F1B37EF7 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		C61CE7EC66E00538EA269D7AFD096BE9 /* CDAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CDAds.bundle; path = CDAds.framework/CDAds.bundle; sourceTree = "<group>"; };
 		CA2892BB048F3D427AA53890ACAB7911 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		CBACBE08DCD3E2E29EE64F064D0F9160 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		D0CDEAF9A7B094320750DE7B89E4EC5B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		D27CC87CF7B25F9DAF6B67A17F83EB6C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		DF5A08C493C7B99A15BF979A6322BCA5 /* GravyConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = GravyConfig.plist; path = CDAds.framework/GravyConfig.plist; sourceTree = "<group>"; };
 		E019DDF887A63C0645374F9DFF7ABADA /* Pods-CDAdsObjectveCExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDAdsObjectveCExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E2ED2022687DAF4A8562442C0AF3DEC4 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		E47B948C363794CACF31FBFF3B295D68 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
@@ -179,17 +177,6 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		18F2D131B9C6638C93E60A28B27D3B84 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B6DA9D4F04F9D2575C483CFE0760F29D /* CDAds.bundle */,
-				ADE35B255A9A63D54C48A32DB02D3DBD /* cdads.mom */,
-				DF5A08C493C7B99A15BF979A6322BCA5 /* GravyConfig.plist */,
-				C2875E694FEC7FFD7B72ACDDB53E4C11 /* VersionInfo.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		1EDA2938734536D56849523C09B73E33 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,11 +196,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2874280CF7462B9A0F38CCA43B010BA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C61CE7EC66E00538EA269D7AFD096BE9 /* CDAds.bundle */,
+				5B7C7B3DFB5BB1148CCA7D91ED6A329B /* GravyConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B9CCEEF28E02906A4BB9B052C8C75EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF764734E2FCBFD70B71E79D5BC2BF9F /* CDAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		52FBC3122F7C06B9CEEDBD391BE8337C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				08891A035B469BF772388577ACAD4DFC /* AFNetworking */,
-				79ACA21D776268373975E37FFBC30277 /* Chalkdigital-Mobile-Ads-G-SDK */,
+				C485D9C9EC5AE96734E1BBABF58AC6C3 /* Chalkdigital-Mobile-Ads-G-SDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -233,16 +237,6 @@
 				D26073EE40BE4E15C492721232335376 /* Pods-CDAdsObjectveCExample */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		79ACA21D776268373975E37FFBC30277 /* Chalkdigital-Mobile-Ads-G-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				A7D411DE775B77E1335EA3ADD30C9FCF /* Frameworks */,
-				18F2D131B9C6638C93E60A28B27D3B84 /* Resources */,
-			);
-			name = "Chalkdigital-Mobile-Ads-G-SDK";
-			path = "Chalkdigital-Mobile-Ads-G-SDK";
 			sourceTree = "<group>";
 		};
 		7A58ED4A49581C112FCA49AD2D464200 /* UIKit */ = {
@@ -294,14 +288,6 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		A7D411DE775B77E1335EA3ADD30C9FCF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD8CF9950B4595B42322DC75B233DE53 /* CDAds.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AA99411FA970B384C50F252720F22FB0 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +297,16 @@
 				04A8E12284DBAE7B0DF09AC8C47162BB /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		C485D9C9EC5AE96734E1BBABF58AC6C3 /* Chalkdigital-Mobile-Ads-G-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				2B9CCEEF28E02906A4BB9B052C8C75EE /* Frameworks */,
+				2874280CF7462B9A0F38CCA43B010BA9 /* Resources */,
+			);
+			name = "Chalkdigital-Mobile-Ads-G-SDK";
+			path = "Chalkdigital-Mobile-Ads-G-SDK";
 			sourceTree = "<group>";
 		};
 		CAE8C3A6B934DBE0947B4EB6E63E8005 /* Reachability */ = {

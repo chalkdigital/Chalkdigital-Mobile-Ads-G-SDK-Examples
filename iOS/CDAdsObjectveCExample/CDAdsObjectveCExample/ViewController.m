@@ -45,7 +45,7 @@
     
     //    if you want to change the Ad refresh Interval.
     self.adBannerView.refreshInterval = 30.0;                   // default is 30.0;
-    self.adBannerView.viewController = self;
+    self.adBannerView.rootViewController = self;
     [self.adBannerView loadRequest:request];
     // Do any additional setup after loading the view, typically from a nib.
 }

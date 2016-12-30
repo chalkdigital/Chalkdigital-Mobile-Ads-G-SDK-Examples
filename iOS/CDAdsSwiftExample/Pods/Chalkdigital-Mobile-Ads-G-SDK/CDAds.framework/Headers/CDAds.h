@@ -27,19 +27,19 @@ FOUNDATION_EXPORT const unsigned char CDAdsVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <CDAds/PublicHeader.h>
 
 
-@interface CDAds : NSObject
+@protocol CDAdsDelegate
+@optional
+-(void)cdAdsDidUpdateLocation:(CLLocation *)location;
+-(void)appendToLog:(NSString *)str_;
+@end
 
-@property (readonly) BOOL limitedTrackingEnabled;
-@property BOOL continuousTrackingEnabled;
-@property (nonatomic) BOOL locationUpdateServicesEnabled;
-@property BOOL ipUpdateServiceEnabled;
+
+@interface CDAds : NSObject
+@property (strong, nonatomic) UIViewController<CDAdsDelegate>* cdAdsDelegate;
 @property (readonly, strong, nonatomic) CDInitialisationParams *cdInitialisationParams;
-+(CDAds*)initialiseWithParams:(CDInitialisationParams*)cdInitialisationParams;
-- (id) init __unavailable;
-+ (BOOL) isTrackingEnabled;
-+(float)isContinuousTrackingEnabled;
-+(BOOL)isIpUpdateServiceEnabled;
-+(BOOL)isLocationUpdateServiceEnabled;
+@property (readonly) BOOL limitedTrackingEnabled;
+@property (nonatomic) BOOL enableTracking;
++(CDAds*)initialiseWithParams:(CDInitialisationParams*)cdInitialisationParams enableTracking:(BOOL)enableTracking;
 +(CDAds*)runningInstance;
 -(void)performUpdateWithCompletionHandler:(void  (^)(UIBackgroundFetchResult))completionHandler;
 @end

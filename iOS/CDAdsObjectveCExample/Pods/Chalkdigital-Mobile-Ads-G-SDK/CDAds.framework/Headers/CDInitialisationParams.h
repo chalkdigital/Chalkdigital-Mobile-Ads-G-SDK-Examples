@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "CDADDefines.h"
 
 @interface CDInitialisationParams : NSObject
+
 @property (strong, nonatomic, nonnull) NSString *key;
 @property (strong, nonatomic, nonnull) NSString *publisherId;
 @property (strong, nonatomic, nonnull) NSString *secret;
-@property BOOL enableTracking;
-@property BOOL askForTrackingPermission;
+@property (strong, nonatomic, nonnull) NSString *site;
+@property CDLocationServicePreset locationServicePreset;
+@property CDLogLevel logLevel;
+@property CDADProvider provider;
 @end

@@ -28,6 +28,15 @@
 @property (nonatomic, assign) BOOL locationServices;
 
 /**
+ * Property to enable standard location services in the Foreground Only.
+ * @discussion If enabled, standard location services will start updating
+ * locations in the `-applicationWillEnterForeground:` and stop updating
+ * locations in `-applicationWillResignActive:`.
+ * @since v2.0.1
+ */
+@property (nonatomic, assign) BOOL enableGPSInForegroundOnly;
+
+/**
  * Property to enable or disable Location Reporting.
  * @discussion Location services will continue to be enabled but at the lowest accuracy.
  * @since v2.0
@@ -132,5 +141,14 @@
  * @since v2.0
  */
 -(void)applicationRegisteredForRemoteNotificationsWithDeviceToken:(NSData *)token;
+
+/**
+ * Handling of location services when the application is about to move from active to inactive state.
+ * This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS
+ * message) or when the user quits the application and it begins the transition to the background state.
+ *
+ * @since v2.0.1
+ */
+- (void)applicationWillResignActive:(UIApplication *)application;
 
 @end

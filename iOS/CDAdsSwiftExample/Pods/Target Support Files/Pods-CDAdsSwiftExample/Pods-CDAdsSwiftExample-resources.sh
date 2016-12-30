@@ -75,15 +75,11 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/CDAds.bundle"
-  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/cdads.momd/cdads.mom"
-  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/cdads.momd/VersionInfo.plist"
-  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/close.png"
+  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/GravyConfig.plist"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/CDAds.bundle"
-  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/cdads.momd/cdads.mom"
-  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/cdads.momd/VersionInfo.plist"
-  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/close.png"
+  install_resource "Chalkdigital-Mobile-Ads-G-SDK/CDAds.framework/GravyConfig.plist"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

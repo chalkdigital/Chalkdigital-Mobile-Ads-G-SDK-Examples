@@ -183,14 +183,6 @@ typedef void (^DataHandler)(NSDictionary *data, NSError *error);
 -(void)simulateLocationUpdate:(CLLocation *)newLocation_;
 
 /**
- * @deprecated v2.0
- *  @brief Manages locationManager:DidUpdateLocations: method when using significant changes.
- *  @param locationManager_ Instance of CLLocationManager being used to monitor locations.
- *  @param locations_ Array of locations gotten by the location manager.
- */
--(void) locationManager:(CLLocationManager *) locationManager_ updatedLocationsWhileMonitoringSignificantChanges:(NSArray *) locations_;
-
-/**
  @deprecated v2.0
  @brief Setup background location tracking, using default values
  */
@@ -231,4 +223,13 @@ typedef void (^DataHandler)(NSDictionary *data, NSError *error);
  */
 -(void) resetAllData;
 
+
+/**
+Sent when the application is about to move from active to inactive state. This can occur for certain types of
+temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application
+and it begins the transition to the background state.
+Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should
+use this method to pause the game.
+ */
+- (void)applicationWillResignActive:(UIApplication *)application;
 @end

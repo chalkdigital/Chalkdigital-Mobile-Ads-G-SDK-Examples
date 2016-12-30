@@ -28,12 +28,6 @@ typedef enum {
 } GGSNetworkStatus;
 
 typedef enum : NSInteger {
-    BatchRequestStatusNotPublished = 0,
-    BatchRequestStatusPublished = 1,
-    BatchRequestStatusInProgress = 2
-}BatchRequestStatus;
-
-typedef enum : NSInteger {
     GGLocationServicePresetDefault = 0,
     GGLocationServicePresetLow = 1,
     GGLocationServicePresetMedium = 2,
@@ -91,6 +85,8 @@ typedef NS_ENUM(NSInteger, GravyRegistrationTime)
 static NSString * const kGravyRegistrationReset = @"kGravyRegistrationReset";
 static NSString * const kGravyRegistrationSuccess = @"kGravyRegistrationSuccess";
 static NSString * const kGravyLocationServicesStatusChanged = @"kGravyLocationServicesStatusChanged";
+static NSString * const kGravyEnableGPSInForegroundOnlyStatusChanged = @"kGravyEnableGPSInForegroundOnlyStatusChanged";
+
 static NSString * const kGravyLocationReportingStatusChanged = @"kGravyLocationReportingStatusChanged";
 static NSString * const kGravyLocationLogSentSuccessful = @"kGravyLocationLogSentSuccessful";
 
@@ -146,20 +142,21 @@ static int const GRAVY_SDK_REQUIRED_DB_VERSION = 2;
 ///@name NSUserDefaults Config Keys
 //-------------------------------------------------------------
 
-static NSString *const kLocationServicesON       = @"LocationServices";
-static NSString *const kLocationReportingON      = @"LocationReporting";
-static NSString *const kLocationSettingsPreset   = @"LocationSettingsPreset";
-static NSString *const kLocationAwarenessSupport = @"LocationAwarenessSupport";
-static NSString *const kAdvertisersID            = @"AdvertisersID";
-static NSString *const kBatchReporting           = @"BatchReporting";
-static NSString *const kRealTimeProcessing       = @"RealTimeProcessing";
-static NSString *const kMaximumDwellTime         = @"MaximumDwellTime";
-static NSString *const kEnvironment              = @"Environment";
-static NSString *const kEnvironmentPlist         = @"isProduction";
-static NSString *const kTestMode                 = @"TestMode";
-static NSString *const kSearchDistance           = @"SearchDistance";
-static NSString *const kSearchType               = @"SearchType";
-static NSString *const kConfigFileVersion        = @"version";
+static NSString *const kLocationServicesON        = @"LocationServices";
+static NSString *const kLocationReportingON       = @"LocationReporting";
+static NSString *const kLocationSettingsPreset    = @"LocationSettingsPreset";
+static NSString *const kLocationAwarenessSupport  = @"LocationAwarenessSupport";
+static NSString *const kAdvertisersID             = @"AdvertisersID";
+static NSString *const kBatchReporting            = @"BatchReporting";
+static NSString *const kRealTimeProcessing        = @"RealTimeProcessing";
+static NSString *const kMaximumDwellTime          = @"MaximumDwellTime";
+static NSString *const kEnvironment               = @"Environment";
+static NSString *const kEnvironmentPlist          = @"isProduction";
+static NSString *const kTestMode                  = @"TestMode";
+static NSString *const kSearchDistance            = @"SearchDistance";
+static NSString *const kSearchType                = @"SearchType";
+static NSString *const kConfigFileVersion         = @"version";
+static NSString *const kEnableGPSInForegroundOnly = @"EnableGPSInForegroundOnly";
 
 //-------------------------------------------------------------
 ///@name NSUserDefaults Config Keys
