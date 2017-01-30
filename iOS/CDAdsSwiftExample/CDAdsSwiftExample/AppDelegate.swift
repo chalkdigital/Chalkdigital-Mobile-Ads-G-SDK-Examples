@@ -19,9 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let params: CDInitialisationParams! = CDInitialisationParams.init()
-        params.key = "chalkboard";                         //Provided by Chalkdigital;
-        params.secret = "Your_CDAds_Secret";               //Provided by Chalkdigital;
+        params.key = "mta0mgew";                         //Provided by Chalkdigital;
+        params.secret = "a0276601-6dc6-4c29-ab9d-40f73457f292";               //Provided by Chalkdigital;
         params.publisherId = "chalkboard";                 //Provided by Chalkdigital;
+        params.logLevel = CDLogLevelDetail;
         
         _cdAds = CDAds.initialise(with: params, enableTracking: true);
         return true
@@ -47,10 +48,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-    }
-    
-    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        _cdAds?.performUpdate(completionHandler: completionHandler);
     }
 
 

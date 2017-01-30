@@ -18,9 +18,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     CDInitialisationParams *params = [[CDInitialisationParams alloc] init];
-    params.key = @"chalkboard";                         //Provided by Chalkdigital;
-    params.secret = @"Your_CDAds_Secret";               //Provided by Chalkdigital;
+    params.key = @"mta0mgew";                         //Provided by Chalkdigital;
+    params.secret = @"a0276601-6dc6-4c29-ab9d-40f73457f292";               //Provided by Chalkdigital;
     params.publisherId = @"chalkboard";                 //Provided by Chalkdigital;
+    params.logLevel = CDLogLevelDetail;
     
     _cdAds = [CDAds initialiseWithParams:params enableTracking:YES];
     return YES;
@@ -48,9 +49,6 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
--(void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler{
-    [_cdAds performUpdateWithCompletionHandler:completionHandler];
-}
 
 
 @end

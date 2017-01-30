@@ -15,7 +15,6 @@
 #import "CDTrackingRequest.h"
 #import "CDADSize.h"
 #import "CDADController.h"
-#import "GravySDK.h"
 
 
 //! Project version number for CDAds.
@@ -30,7 +29,6 @@ FOUNDATION_EXPORT const unsigned char CDAdsVersionString[];
 @protocol CDAdsDelegate
 @optional
 -(void)cdAdsDidUpdateLocation:(CLLocation *)location;
--(void)appendToLog:(NSString *)str_;
 @end
 
 
@@ -41,5 +39,4 @@ FOUNDATION_EXPORT const unsigned char CDAdsVersionString[];
 @property (nonatomic) BOOL enableTracking;
 +(CDAds*)initialiseWithParams:(CDInitialisationParams*)cdInitialisationParams enableTracking:(BOOL)enableTracking;
 +(CDAds*)runningInstance;
--(void)performUpdateWithCompletionHandler:(void  (^)(UIBackgroundFetchResult))completionHandler;
 @end
