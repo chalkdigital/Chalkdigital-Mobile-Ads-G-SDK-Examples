@@ -19,12 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let params: CDInitialisationParams! = CDInitialisationParams.init()
-        params.key = "mta0mgew";                         //Provided by Chalkdigital;
-        params.secret = "a0276601-6dc6-4c29-ab9d-40f73457f292";               //Provided by Chalkdigital;
-        params.publisherId = "chalkboard";                 //Provided by Chalkdigital;
-        params.logLevel = CDLogLevelDetail;
+        params.key = "chalkboard"                         //Provided by Chalkdigital;
+        params.secret = "Your_CDAds_Secret"               //Provided by Chalkdigital;
+        params.publisherId = "chalkboard";                //Provided by Chalkdigital;
+        params.logLevel = CDLogLevelDetail
         
-        _cdAds = CDAds.initialise(with: params, enableTracking: true);
+        _cdAds = CDAds.initialise(with: params)
+        _cdAds?.locationServices = true
+        _cdAds?.launch()
         return true
     }
 

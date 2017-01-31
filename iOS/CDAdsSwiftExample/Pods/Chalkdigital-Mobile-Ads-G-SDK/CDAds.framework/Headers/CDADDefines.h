@@ -45,3 +45,35 @@ typedef enum : NSInteger {
     CDLocationServicePresetHigh = 3
 } CDLocationServicePreset;
 
+
+typedef NS_ENUM(NSInteger, CDLocationAwarenessSupport){
+    CDLocationAwarenessSupportSignificantChanges,
+    CDLocationAwarenessSupportRegionMonitoring,
+    CDLocationAwarenessSupportNone
+};
+
+typedef NS_ENUM(NSInteger, CDEnvironmentType)
+{
+    CDEnvironmentNone = 0,
+    CDEnvironmentSystest2 = 1,
+    CDEnvironmentProduction = 2,
+    CDEnvironmentSandbox = 3
+};
+
+typedef NS_ENUM(NSInteger, CDRTLPSearchType){
+    CDRTLPSearchTypeNone,
+    CDRTLPSearchTypeWithinPolygon,
+    CDRTLPSearchTypeCenterPointDistance
+};
+
+typedef NS_ENUM(NSInteger, CDRegistrationTime)
+{
+    CDRegistrationTimeFiveMinutes       =          60*5,
+    CDRegistrationTimeTenMinutes        =          60*10,
+    CDRegistrationTimeFifteenMinutes    =          60*15,
+    CDRegistrationTimeFiveHours         =          60*60*5,
+    CDRegistrationTimeTwelveHours       =          60*60*12,
+    CDRegistrationTimeTwentyFourHours   =          60*60*24,
+    CDRegistrationTimeNone              =          0
+    
+};

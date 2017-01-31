@@ -17,7 +17,6 @@
 @property (strong, nonatomic, nonnull) NSString *publisherId;
 @property (strong, nonatomic, nonnull) NSString *secret;
 @property (strong, nonatomic, nonnull) NSString *site;
-@property CDLocationServicePreset locationServicePreset;
 @property CDLogLevel logLevel;
 @property CDADProvider provider;
 @end
